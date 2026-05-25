@@ -35,10 +35,10 @@ Nhập lựa chọn của bạn (1-4):
                         phone = "******" + phone[-4:]
                     else:
                         phone = "Invalid Format"
-                    print(f"{employee_id:<12}"
-                          f"{full_name:<25}"
-                          f"{phone:<20}"
-                          f"{department:<15}")
+                    print(f"employee_id:"
+                          f"full_name:"
+                          f"phone:"
+                          f"department:")
 
             case 3:
 
