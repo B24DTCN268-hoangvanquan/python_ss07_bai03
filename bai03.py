@@ -20,10 +20,10 @@ Nhập lựa chọn của bạn (1-4):
 
                 print("\n================ BÁO CÁO NHÂN SỰ ================")
 
-                print(f"{'ID':<12}"
-                      f"{'HỌ TÊN':<25}"
-                      f"{'SĐT':<20}"
-                      f"{'PHÒNG BAN':<15}")
+                print(f"ID:"
+                      f"HỌ TÊN:"
+                      f"SĐT:"
+                      f"PHÒNG BAN:")
                 print("-" * 70)
                 for employee in employee_list:
                     data = employee.strip().split(";")
